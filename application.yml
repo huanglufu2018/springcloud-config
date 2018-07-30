@@ -1,0 +1,17 @@
+spring:  
+  profiles: 
+    active: 
+	- dev
+
+---
+
+spring: 
+  profiles: dev
+  application: 
+    name: zokoo-config-dev
+---
+
+spring: 
+  profiles: test
+  application: 
+    name: zokoo-config-test
