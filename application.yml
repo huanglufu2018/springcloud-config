@@ -1,16 +1,13 @@
-spring:  
+spring: 
   profiles: 
-    active: 
-      - dev
-
+    active:  
+    - dev
 ---
-
 spring: 
   profiles: dev
   application: 
     name: zokoo-config-dev
 ---
-
 spring: 
   profiles: test
   application: 
